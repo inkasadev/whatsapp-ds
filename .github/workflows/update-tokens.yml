@@ -22,7 +22,7 @@ jobs:
       - name: Create Input JSON
         id: create-json
         # vai usar essa action chamada jsdaniell/create-json@1.1.2
-        uses: jsdaniell/create-json@1.1.2
+        uses: jsdaniell/create-json@1.2.2
         with:
           # e do corpo(body) da requisição vai pegar duas informações
           # o nome do arquivo(filename)
@@ -46,7 +46,7 @@ jobs:
 
       # depois roda um npm run build
       - name: Build
-        run: npm run build:sd
+        run: npm run build
 
       # e depois criar uma PR com o nome Update design tokens
       - name: Create PR
