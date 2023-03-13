@@ -31,7 +31,7 @@ jobs:
           json: ${{ github.event.client_payload.tokens }}
           # e vai jogar esse arquivo JSON com o conteúdo que veio através do figma
           # para dentro da pasta input
-          dir: "input"
+          dir: "packages/tokens/input"
 
       # depois ele vai instalar o node
       - name: Install Node.js
