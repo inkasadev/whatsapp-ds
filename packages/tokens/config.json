@@ -1,0 +1,29 @@
+{
+  "source": ["input/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "build/ts/",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "colors.js"
+        },
+        {
+          "format": "typescript/module-declarations",
+          "destination": "colors.d.ts"
+        }
+      ]
+    }
+  }
+}
