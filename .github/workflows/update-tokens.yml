@@ -1,0 +1,63 @@
+name: Generate Design Tokens
+
+# ele vai rodar quando
+on:
+  # houver um repository_dispatch que é basicamente uma ação
+  # externa mandado esse github action rodar
+  repository_dispatch:
+    # com o nome update-tokens
+    types: update-tokens
+
+# vai rodar um único job chamado build
+jobs:
+  build:
+    # que vai rodar dentro do ubuntu
+    runs-on: ubuntu-latest
+    # e os passos para esse job rodar são
+    steps:
+      # primeiro ele faz o checkout do repositório(basicamente fazer um git pull)
+      - uses: actions/checkout@v3
+
+      # depois de fazer o checkout ele vai criar um arquivo de input o JSON
+      - name: Create Input JSON
+        id: create-json
+        # vai usar essa action chamada jsdaniell/create-json@1.1.2
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          # e do corpo(body) da requisição vai pegar duas informações
+          # o nome do arquivo(filename)
+          name: ${{ github.event.client_payload.filename }}
+          # e vai pegar os tokens
+          json: ${{ github.event.client_payload.tokens }}
+          # e vai jogar esse arquivo JSON com o conteúdo que veio através do figma
+          # para dentro da pasta input
+          dir: "input"
+
+      # depois ele vai instalar o node
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          # na versão 16
+          node-version: 16
+
+      # vai rodar o npm ci que é o npm install feito para rodar em ambientes de CI
+      - name: Install dependencies
+        run: npm ci
+
+      # depois roda um npm run build
+      - name: Build
+        run: npm run build:sd
+
+      # e depois criar uma PR com o nome Update design tokens
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "style: update design tokens"
+          # o titulo da PR ele pega uma variável que vem dentro do corpo da
+          # requisição chamada commitMessage caso ela exista se não ele bota
+          # um padrão chamado Update design tokens
+          title: ${{ github.event.client_payload.commitMessage || 'Update design tokens' }}
+          body: "Design tokens have been updated via Figma and need to be reviewed."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: "main"
