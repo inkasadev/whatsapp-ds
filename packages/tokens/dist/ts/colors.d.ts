@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Mar 2023 03:55:26 GMT
+ * Generated on Tue, 14 Mar 2023 05:30:00 GMT
  */
 
 export default tokens;
@@ -28,6 +28,7 @@ declare const tokens: {
     "green-normal": DesignToken,
     "green-light": DesignToken,
     "blue-normal": DesignToken,
-    "white-normal": DesignToken
+    "white-normal": DesignToken,
+    "black-normal": DesignToken
   }
 }
