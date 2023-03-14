@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Mar 2023 15:14:52 GMT
+ * Generated on Tue, 14 Mar 2023 15:31:06 GMT
  */
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     "green-ultradark": {
       "description": "",
       "type": "color",
-      "value": "#ff00ff",
+      "value": "#075e54",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -21,7 +21,7 @@ module.exports = {
       "original": {
         "description": "",
         "type": "color",
-        "value": "#ff00ffff",
+        "value": "#075e54ff",
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
