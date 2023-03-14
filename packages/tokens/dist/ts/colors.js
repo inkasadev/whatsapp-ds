@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Mar 2023 15:05:56 GMT
+ * Generated on Tue, 14 Mar 2023 15:14:52 GMT
  */
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     "green-ultradark": {
       "description": "",
       "type": "color",
-      "value": "#075e54",
+      "value": "#ff00ff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -21,7 +21,7 @@ module.exports = {
       "original": {
         "description": "",
         "type": "color",
-        "value": "#075e54ff",
+        "value": "#ff00ffff",
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
@@ -213,6 +213,41 @@ module.exports = {
       "path": [
         "color",
         "white-normal"
+      ]
+    },
+    "black-normal": {
+      "description": "",
+      "type": "color",
+      "value": "#111111",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:f02d580b68eb6e67445aa7bde25e3e972a9c0a4c,",
+          "exportKey": "color"
+        }
+      },
+      "filePath": "input/design-tokens.tokens.json",
+      "isSource": true,
+      "original": {
+        "description": "",
+        "type": "color",
+        "value": "#111111ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f02d580b68eb6e67445aa7bde25e3e972a9c0a4c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "name": "ColorBlackNormal",
+      "attributes": {
+        "category": "color",
+        "type": "black-normal"
+      },
+      "path": [
+        "color",
+        "black-normal"
       ]
     }
   }
