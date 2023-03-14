@@ -5,8 +5,7 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
-    "build:sd": "turbo run build:sd"
+    "build": "turbo run build"
   },
   "devDependencies": {
     "turbo": "^1.8.3"
