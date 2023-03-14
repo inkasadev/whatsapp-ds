@@ -6,11 +6,4 @@ module.exports = {
     "@storybook/addon-interactions",
   ],
   framework: "@storybook/react",
-  webpackFinal: (config, { configType }) => {
-    if (configType === "PRODUCTION") {
-      config.base = "/whatsapp-ds/";
-    }
-
-    return config;
-  },
 };
