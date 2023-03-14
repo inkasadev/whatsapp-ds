@@ -50,7 +50,7 @@ jobs:
 
       # e depois criar uma PR com o nome Update design tokens
       - name: Create PR
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5-beta
         with:
           commit-message: "style: update design tokens"
           # o titulo da PR ele pega uma variável que vem dentro do corpo da

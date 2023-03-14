@@ -1,0 +1,28 @@
+{
+  "name": "@whatsapp-ds/docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/node-logger": "^6.5.16",
+    "@storybook/react": "^6.5.12",
+    "@storybook/storybook-deployer": "^2.8.12",
+    "@storybook/testing-library": "^0.0.13"
+  },
+  "dependencies": {
+    "@whatsapp-ds/config-tsconfig": "*",
+    "@whatsapp-ds/config-eslint": "*",
+    "@whatsapp-ds/tokens": "*",
+    "@whatsapp-ds/react-components": "*"
+  }
+}

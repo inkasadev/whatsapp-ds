@@ -1,0 +1,4 @@
+{
+  "extends": "@whatsapp-ds/config-tsconfig/base.json",
+  "include": ["dist"]
+}

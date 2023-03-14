@@ -1,0 +1,3 @@
+{
+	"extends": "@whatsapp-ds/config-eslint"
+}

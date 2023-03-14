@@ -1,0 +1,10 @@
+{
+  "name": "@whatsapp-ds/config-tsconfig",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "base.json",
+    "react-library.json"
+  ]
+}

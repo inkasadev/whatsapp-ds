@@ -1,20 +1,20 @@
 {
-  "name": "@whatsapp-ds/tokens",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "style-dictionary build",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "lint": "eslint src/**/*.ts* --fix"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "style-dictionary": "^3.7.2"
-  },
-  "devDependencies": {
-    "tsup": "^6.6.3",
-    "typescript": "^4.9.5"
-  }
+	"name": "@whatsapp-ds/tokens",
+	"version": "1.0.0",
+	"main": "dist/index.ts",
+	"scripts": {
+		"build": "style-dictionary build"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"style-dictionary": "^3.7.2"
+	},
+	"devDependencies": {
+		"@whatsapp-ds/config-eslint": "*",
+		"@whatsapp-ds/config-prettier": "*",
+		"@whatsapp-ds/config-tsconfig": "*",
+		"eslint": "^8.36.0",
+		"tsup": "^6.6.3",
+		"typescript": "^4.9.5"
+	}
 }
