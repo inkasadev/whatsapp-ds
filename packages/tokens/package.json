@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "dist/index.ts",
 	"scripts": {
-		"build": "style-dictionary build"
+		"build:sd": "style-dictionary build"
 	},
 	"license": "MIT",
 	"dependencies": {

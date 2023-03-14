@@ -46,11 +46,11 @@ jobs:
 
       # depois roda um npm run build
       - name: Build
-        run: npm run build
+        run: npm run build:sd
 
       # e depois criar uma PR com o nome Update design tokens
       - name: Create PR
-        uses: peter-evans/create-pull-request@v5-beta
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "style: update design tokens"
           # o titulo da PR ele pega uma variável que vem dentro do corpo da
