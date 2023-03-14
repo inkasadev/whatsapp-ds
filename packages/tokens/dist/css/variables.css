@@ -1,13 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Mar 2023 15:05:56 GMT
+ * Generated on Tue, 14 Mar 2023 15:14:52 GMT
  */
 
 :root {
-  --color-green-ultradark: #075e54;
+  --color-green-ultradark: #ff00ff;
   --color-green-darkgreen: #128c7e;
   --color-green-normal: #25d366;
   --color-green-light: #dcf8c6;
   --color-blue-normal: #34b7f1;
   --color-white-normal: #ece5dd;
+  --color-black-normal: #111111;
 }
