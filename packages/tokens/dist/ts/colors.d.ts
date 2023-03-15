@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Mar 2023 21:21:13 GMT
+ * Generated on Wed, 15 Mar 2023 19:42:07 GMT
  */
 
 export default tokens;
@@ -23,12 +23,40 @@ declare interface DesignToken {
 
 declare const tokens: {
   "color": {
-    "green-ultradark": DesignToken,
-    "green-darkgreen": DesignToken,
-    "green-normal": DesignToken,
-    "green-light": DesignToken,
-    "blue-normal": DesignToken,
-    "white-normal": DesignToken,
-    "black-normal": DesignToken
+    "green-ultradark": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "green-darkgreen": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "green-normal": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "green-light": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "blue-normal": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "white-normal": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    },
+    "black-normal": {
+      "$extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {}
+      }
+    }
   }
 }
