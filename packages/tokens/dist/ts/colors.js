@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Apr 2023 17:20:10 GMT
+ * Generated on Thu, 27 Apr 2023 17:43:49 GMT
  */
 
 module.exports = {
@@ -249,6 +249,298 @@ module.exports = {
         "color",
         "black-normal"
       ]
+    }
+  },
+  "font": {
+    "text-style-1": {
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 12,
+        "textDecoration": "none",
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 14.4,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:d6531a5e963100c4ec347fd677ffccdadbbb55ce,",
+          "exportKey": "font"
+        }
+      },
+      "filePath": "input/design-tokens.tokens.json",
+      "isSource": true,
+      "original": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 14.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d6531a5e963100c4ec347fd677ffccdadbbb55ce,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "name": "FontTextStyle1",
+      "attributes": {
+        "category": "font",
+        "type": "text-style-1"
+      },
+      "path": [
+        "font",
+        "text-style-1"
+      ]
+    }
+  },
+  "typography": {
+    "text-style-1": {
+      "fontSize": {
+        "type": "dimension",
+        "value": 12,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 12
+        },
+        "name": "TypographyTextStyle1FontSize",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "fontSize"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "fontSize"
+        ]
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none",
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "none"
+        },
+        "name": "TypographyTextStyle1TextDecoration",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "textDecoration"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "textDecoration"
+        ]
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Inter",
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "Inter"
+        },
+        "name": "TypographyTextStyle1FontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 400
+        },
+        "name": "TypographyTextStyle1FontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "fontWeight"
+        ]
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "TypographyTextStyle1FontStyle",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "fontStyle"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "fontStyle"
+        ]
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "TypographyTextStyle1FontStretch",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "fontStretch"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "fontStretch"
+        ]
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 0
+        },
+        "name": "TypographyTextStyle1LetterSpacing",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 14.4,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 14.4
+        },
+        "name": "TypographyTextStyle1LineHeight",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "lineHeight"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "lineHeight"
+        ]
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 0
+        },
+        "name": "TypographyTextStyle1ParagraphIndent",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "paragraphIndent"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "paragraphIndent"
+        ]
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0,
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 0
+        },
+        "name": "TypographyTextStyle1ParagraphSpacing",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "paragraphSpacing"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "paragraphSpacing"
+        ]
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none",
+        "filePath": "input/design-tokens.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "none"
+        },
+        "name": "TypographyTextStyle1TextCase",
+        "attributes": {
+          "category": "typography",
+          "type": "text-style-1",
+          "item": "textCase"
+        },
+        "path": [
+          "typography",
+          "text-style-1",
+          "textCase"
+        ]
+      }
     }
   }
 };
