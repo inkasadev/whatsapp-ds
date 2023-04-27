@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Apr 2023 17:20:10 GMT
+ * Generated on Thu, 27 Apr 2023 17:43:49 GMT
  */
 
 export default tokens;
@@ -30,5 +30,23 @@ declare const tokens: {
     "blue-normal": DesignToken,
     "white-normal": DesignToken,
     "black-normal": DesignToken
+  },
+  "font": {
+    "text-style-1": DesignToken
+  },
+  "typography": {
+    "text-style-1": {
+      "fontSize": DesignToken,
+      "textDecoration": DesignToken,
+      "fontFamily": DesignToken,
+      "fontWeight": DesignToken,
+      "fontStyle": DesignToken,
+      "fontStretch": DesignToken,
+      "letterSpacing": DesignToken,
+      "lineHeight": DesignToken,
+      "paragraphIndent": DesignToken,
+      "paragraphSpacing": DesignToken,
+      "textCase": DesignToken
+    }
   }
 }
